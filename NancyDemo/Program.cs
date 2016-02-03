@@ -7,7 +7,7 @@ namespace NancyDemo
     {
         static void Main(string[] args)
         {
-            var port = 8080;
+            var port = 8081;
 
             using (WebApp.Start<Startup>(string.Format("http://+:{0}", port)))
             {
